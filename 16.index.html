@@ -11,10 +11,60 @@
          .heding-2 {
              text-decoration: line-through;
          }
+         .heding-3 {
+            text-decoration: none;
+         }
+         .heding-4:hover {
+          color: blue;
+         }
+         .heding-4:active {
+            color: red;
+         }
+         .a:link {
+            text-decoration: none;
+           color: #FF0000;
+          }
+          .a:visited {
+            color: #00FF00;
+          }
+          .a:hover {
+           color: #FF00FF;
+         }
+         .aa:active {
+            color: aqua;
+         }
+         .aaa.highlight:hover {
+         color: #ff0000;
+         }
+         p.intro::first-letter {
+         color: #ff0000;
+         font-size: 200%;
+         }
+         p:lang(no) {
+         quotes: "~" "~";
+         }
+         .pp:first-child {
+         color: blue;
+         }
+         .box-2, .box-3, .box-4 {
+            background-color: green;
+            color: white;
+            border: 5px solid blue;
+         }
      </style>
  </head>
      <body>
          <h1 class="heding-1">Tagiga chizilgan matinlar</h1>
          <h1 class="heding-2">O'rtasida chizilgan matinlar</h1>
+         <a href="#" class="heding-3">Tagidagi chiziqni olib qo'yadigan matinlar</a>
+         <h2 class="heding-4">Ustiga schqonchani olib keling</h2>
+         <a href="#" class="a">Tagidagi chiziqni olib qo'yadigan matinlar</a><br><br>
+         <a href="#" class="aa">Tagidagi chiziqni olib qo'yadigan matinlar</a><br><br>
+         <a href="#" class="aaa">Tagidagi chiziqni olib qo'yadigan matinlar</a>
+         <p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+         <p class="pp">Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+         <h3 class="box-2">O'rtasida chizilgan matinlar</h3>
+         <h4 class="box-3">O'rtasida chizilgan matinlar</h4>
+         <h5 class="box-4">O'rtasida chizilgan matinlar</h5>
      </body>
  </html>
