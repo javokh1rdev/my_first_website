@@ -1,0 +1,34 @@
+.main-header__brand {
+     display: inline-block;
+     vertical-align: middle;
+}
+ 
+ .main-header__brand img {
+     width: 65px;
+ }
+
+ .main-navigation {
+     display: inline-block;
+     vertical-align: middle;
+ }
+
+ .main-navigation__item {
+     display: inline-block;
+     padding: 10px;
+ }
+
+ .main-navigation__item a {
+     color: #053640;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 12px;
+     font-weight: 500;
+ }
+
+ .main-navigation__item a:hover {
+     color: rgba(72, 72, 222, 0.647);
+ }
+
+ .main-navigation__item.active a {
+     color: blue;
+ }
