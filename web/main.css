@@ -1,0 +1,39 @@
+/**yulduzcha bilan sitil berish bu umumiy stil berishga kiradi*/
+* {
+    margin: 1%;
+    padding: 1%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", serif:
+}
+
+.kurs {
+    color: brown;
+}
+
+p {
+  color: blue;
+}
+
+#kurslar {
+    color: blueviolet;
+}
+
+[disabled] {
+    color: aquamarine;
+}
+/** caskatlar */
+
+#heding1 {
+    color: chocolate;
+}
+
+.heding2 {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 1px;
+}
