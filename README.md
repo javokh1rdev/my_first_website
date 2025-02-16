@@ -19,3 +19,5 @@ https://www.google.com/search?q=mountaine+hd+walapper+jpg&sca_esv=ec4e310bc6b52e
  https://www.w3schools.com/cssref/pr_dim_line-height.php  luns style linklar bilan ishlash
 
  https://themeforest.net/item/kitzu-personal-portfolio-template/26075107  tayyor shablonlar 
+
+ https://fontawesome.com/search  iconca olish
