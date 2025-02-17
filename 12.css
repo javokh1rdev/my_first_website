@@ -1,3 +1,82 @@
+* {
+    text-transform: none;
+    text-decoration: none;
+}
+
+body {
+     font-family: sans-serif;
+}
+
+
+.container {
+     width: 1140px;
+     margin: 0 auto;
+}
+
+.to-uppercase {
+     text-transform: uppercase;
+}
+
+.clearfix {
+     clear: both;
+}
+
+.section-subtitle {
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+.section__subtitle__22text {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+.section__title {
+    margin-top: 5px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #053640;
+}
+
+.section__title__22text {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #053640;
+}
+
+.button {
+    border: none;
+    background-color: rgb(8, 8, 113);
+    color: #ffff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: spx;
+}
+
+.blur-line {
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 6px;
+    background-color: rgba(237,35,159,0.6);
+    filter: blur(3px);
+    border-radius: 4px;
+}
+
+/*Main_header styles*/
 .main-header__brand {
      display: inline-block;
      vertical-align: middle;
@@ -32,3 +111,191 @@
  .main-navigation__item.active a {
      color: blue;
  }
+
+ /*Main_section stylis*/
+ .main-section {
+     padding: 100px 30px;
+ }
+
+ .main-section > div {
+     width: 50%;
+     float: left;
+ }
+ 
+ .main-section__image img {
+    width: 600px;
+     text-align: right;
+ }
+
+ .main-section__welcome {
+     font-size: 16px;
+     font-weight: 400;
+     margin-bottom: 20px;
+     letter-spacing: 2px;
+     color: #797979;
+ }
+
+ .main-section__intraduktion {
+     margin-top: 20px;
+     font-size: 60px;
+     font-weight: 500;
+     margin-bottom: 20px;
+     color: rgba(4, 4, 86, 0.796);
+ }
+
+ .main-section__position {
+     margin-bottom: 20px;
+     font-size: 24px;
+     font-weight: 300;
+     color: rgba(4, 4, 86, 0.796);
+ }
+
+ .main-section__social_networks a {
+     color: #8fa18f;
+     font-size: 30px;
+     display: inline-block;
+     margin-right: 25px;
+     cursor: pointer;
+ }
+ 
+ .main-section__social_networks a:hover {
+     color: rgb(8, 8, 113);
+ }
+
+ .main-section__action {
+     margin-top: 30px;
+ }
+
+ .statistices {
+     padding-top: 100px;
+ }
+
+ .statistices__item {
+     display: inline-block;
+     width: 150px;
+     background-color: #f8faff;
+     text-align: center;
+     padding: 5px 10px;
+     margin-right: 25px;
+ }
+ 
+ .statistices__nomber {
+     font-size: 27px;
+     margin-bottom: 5px;
+     color: blue;
+ }
+
+ .statistices__title {
+     font-size: 16px;
+     color: #797979;
+     font-weight: 300;
+ }
+
+ /*About me section*/
+ .about-me {
+     padding: 100px 0;
+ }
+
+ .about-me > div {
+     width: 50%;
+     float: left;
+ }
+
+ .about-me__image img {
+     width: 550px;
+     text-align: left;
+ }
+
+ .bout-me__description {
+     font-size: 14px;
+     font-weight: 300;
+     color: #797979;
+     line-height: 27px;
+ }
+
+ .about-me__action {
+     margin-top: 40px;
+ }
+
+ /*Services section stayle*/
+ .services {
+     padding-top: 100px;
+ }
+
+ .services__cards {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .services__card {
+    display: inline-block;
+     width: 250px;
+     padding: 50px 30px;
+     background-color: hsl(0, 8%, 95%);
+     margin-right: 3%;
+     text-align: center;
+     transition: 700ms;
+ }
+
+ .fa-solid {
+     font-size: 50px;
+     font-weight: bold;
+     color: rgb(190, 25, 36);
+ }
+
+ .fa-brands {
+    font-size: 50px;
+    font-weight: bold;
+    color: hsl(210, 65%, 49%);
+ }
+
+ .services__card__title {
+      color: rgb(55, 55, 184);
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+ }
+
+ .services__card_description {
+      color: #43500d;
+      font-size: 15px;
+      line-height: 22px;
+      font-weight: 400;
+ }
+
+ .services__card__link {
+     font-size: 20px;
+     font-weight: 600;
+     text-transform: uppercase;
+     color: rgb(39, 39, 172);;
+ }
+
+ .services__card:hover {
+    background-color: rgb(0, 47, 255);
+    
+ }
+ 
+ .services__card:hover .services__card__title,
+ .services__card:hover .services__card_description,
+ .services__card:hover .fa-brands, 
+ .services__card:hover .fa-solid,
+ .services__card:hover .services__card__link {
+    color: #FFFF;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
