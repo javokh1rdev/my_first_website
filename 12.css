@@ -284,6 +284,54 @@ body {
     color: #FFFF;
  }
 
+ /*My clients*/
+ .clients {
+     padding-top: 100px;
+ }
+
+ .client-item > div {
+     width: 50%;
+     float: left;
+     box-sizing: border-box;
+ }
+
+ .client-item__image img {
+     width: 100%;
+ }
+
+ .client-item__info {
+     padding-top: 50px;
+     padding-left: 50px;
+ }
+
+.client-item__name {
+     font-size: 20px;
+     margin-bottom: 4px;
+}
+
+ .client-item__position {
+     font-size: 14px;
+     font-weight: 500;
+     color: #053640;
+ }
+
+ .client-item__review {
+     font-size: 14px;
+     line-height: 27px;
+     font-weight: 500;
+     color: #053640;
+ }
+
+ .client-item__rate {
+     color: #FFD805;
+ }
+
+ .client-item__rate .diseble {
+     color: #AEB9BE;
+ }
+
+ 
+
 
 
 

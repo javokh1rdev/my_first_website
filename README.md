@@ -21,3 +21,7 @@ https://www.google.com/search?q=mountaine+hd+walapper+jpg&sca_esv=ec4e310bc6b52e
  https://themeforest.net/item/kitzu-personal-portfolio-template/26075107  tayyor shablonlar 
 
  https://fontawesome.com/search  iconca olish
+
+ https://picsart.com/create/editor?category=myFolders&projectId=67b22a8501c250cfaae429fa   photashop rasim yasash
+
+ https://www.softr.io/tools/svg-shape-generator  rasimga orqa fo'n qo'yish rangli fo'nlar
