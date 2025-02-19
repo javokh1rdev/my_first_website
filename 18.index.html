@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+  <style>
+     body {
+         height: 10000px;
+     }
+      /* .relitive-box {
+         position: relative;
+         top: 20px; 
+         background-color: red;
+         height: 100px;
+      }
+
+      .relitive-box1 {
+         background-color: blue;
+         height: 60px;
+      }*/
+
+      .fixed-box {
+         position: fixed;
+         top: 2;
+         right: 0;
+         background-color: green;
+         height: 100px;
+         width: 100%;
+      }
+
+      .box4 {
+         background-color: red;
+         height: 500px;
+      }
+
+  </style>
+     </head>
+     <body>
+         <div class="fixed-box">fixed qiymatiga ega bo'lgan</div>
+         <div class="box4">oddiy quti</div>
+         <div class="relitive-box">Relative qiymatiga ega bo'lgan</div>
+         <div class="relitive-box1">Oddiy quti (shunaqa ham staticqiymatiga ega bo'ladi)</div>
+     </body>
+     </html>
