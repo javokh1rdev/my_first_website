@@ -13,6 +13,14 @@ body {
      margin: 0 auto;
 }
 
+.fixed {
+     position: fixed;
+     top: 0;
+     height: 70px;
+     background-color: white;
+     width: 100%;
+}
+
 .to-uppercase {
      text-transform: uppercase;
 }
