@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
-  <style>
-     body {
-         height: 10000px;
-     }
-      /* .relitive-box {
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Z-index</title>
+    <style>
+       .box_1 {
+         position: ;
+         height: 200px;
+         background-color: aqua;
+         z-index: 2;
+       }
+
+       .box_2{
          position: relative;
-         top: 20px; 
-         background-color: red;
          height: 100px;
-      }
+         background-color: aquamarine;
+         z-index: -1;
+       }
 
-      .relitive-box1 {
+       .box {
          background-color: blue;
-         height: 60px;
-      }*/
-
-      .fixed-box {
-         position: fixed;
-         top: 2;
-         right: 0;
-         background-color: green;
-         height: 100px;
-         width: 100%;
-      }
-
-      .box4 {
-         background-color: red;
-         height: 500px;
-      }
-
-  </style>
-     </head>
-     <body>
-         <div class="fixed-box">fixed qiymatiga ega bo'lgan</div>
-         <div class="box4">oddiy quti</div>
-         <div class="relitive-box">Relative qiymatiga ega bo'lgan</div>
-         <div class="relitive-box1">Oddiy quti (shunaqa ham staticqiymatiga ega bo'ladi)</div>
-     </body>
-     </html>
+         border: 1px solid red;
+         width: 400px;
+         height: 150px;
+         overflow: auto;
+       }
+    </style>
+      </head>
+      <body>
+          <div class="box_1">
+             Box 1
+          </div>
+          <div class="box_2">
+             Box 2
+          </div>
+          <div class="box">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique dolorem id accusamus magnam nobis quidem. Cupiditate necessitatibus deserunt debitis recusandae quasi vitae libero ratione. Corporis incidunt explicabo quis necessitatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed laudantium impedit nostrum incidunt harum laborum sapiente voluptatibus iure voluptates adipisci sunt, accusamus, quod unde molestiae sequi ipsam labore inventore <modi class="lor">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quis ratione dolorum quidem, commodi ipsam omnis distinctio fugit excepturi, consequatur maiores quas recusandae repellendus! Quas similique qui eos blanditiis perferendis.
+          </div>
+      </body>
+      </html>
